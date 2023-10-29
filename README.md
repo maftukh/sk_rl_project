@@ -57,6 +57,10 @@ You need to launch from the root of the folder the scripts in `play_modes` direc
 
 You can use `agent_in_single_player_env.py` to make 2 agent fight each other (one of them can be you).
 
+```shell
+python play_modes/agent_in_single_player_env.py
+```
+
 The best agent is `MinimaxPruningAgentSeveralRewards` so try to beat him!
 
 We also added bash scripts that we've used for reproducibility of our experiments
