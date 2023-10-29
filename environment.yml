@@ -1,0 +1,14 @@
+name: RL_breaking_U3T
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7
+  - pip
+  - box2d-py==2.3.8
+  - gym==0.26.2
+  - numpy==1.26.1
+  - pygame==2.5.2
+  - torchvision==0.16.0
+  - tqdm==4.66.1
